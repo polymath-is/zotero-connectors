@@ -177,7 +177,9 @@ var MESSAGES = {
 		onAuthComplete: false,
 		run: {
 			background: {minArgs: 4}
-		}
+		},
+		getDocument: true,
+		batchUpdateDocument: true
 	},
 	GoogleDocsPluginManager: {
 		injectUI: true
